@@ -31,19 +31,29 @@ header {
 
 .carousel {
   width: 90rem;
-  min-width: 30rem;
+  min-width: 40rem;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-inner {
   height: 30rem;
   width: 40rem;
   color: yellow;
+  background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
-.card-container {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 30px;
   padding: 2rem;
-  gap: 1rem;
+  background-color: transparent !important;
+}
+
+.card > h2 {
+  font-size: 50px;
+  padding: 1rem;
+  border-bottom: 2px solid yellow;
 }/*# sourceMappingURL=style.css.map */
