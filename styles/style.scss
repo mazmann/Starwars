@@ -1,0 +1,48 @@
+body {
+  background-image: url("./emptyspace.jpg");
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.headerimg {
+  height: 12rem;
+}
+
+.navarrow {
+  color: yellow;
+  font-size: 40px;
+  border: 2px solid yellow;
+  border-color: yellow;
+  border-radius: 20px;
+  padding: 1rem;
+  width: 20rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  padding-right: 10rem;
+  padding-left : 10rem;
+}
+.carousel {
+  width: 90rem;
+  min-width: 30rem;
+}
+.carousel-inner {
+  height: 30rem;
+  width: 40rem;
+  // border: 2px solid yellow;
+  // border-color: yellow;
+  color: yellow;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
